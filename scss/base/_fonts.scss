@@ -1,0 +1,48 @@
+//Roboto
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"),
+    url(../../fonts/roboto_400/Roboto-Regular.ttf) format("truetype"),
+    url(../../fonts/roboto_400/Roboto-Regular.woff) format("woff"),
+    url(../../fonts/roboto_400/Roboto-Regular.woff2) format("woff2"),
+    url(../../fonts/roboto_400/Roboto-Regular.eot) format("embedded-opentype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"),
+    url(../../fonts/roboto_500/Roboto-Medium.ttf) format("truetype"),
+    url(../../fonts/roboto_500/Roboto-Medium.woff) format("woff"),
+    url(../../fonts/roboto_500/Roboto-Medium.woff2) format("woff2"),
+    url(../../fonts/roboto_500/Roboto-Medium.eot) format("embedded-opentype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"),
+    url(../../fonts/roboto_700/Roboto-Bold.ttf) format("truetype"),
+    url(../../fonts/roboto_700/Roboto-Bold.woff) format("woff"),
+    url(../../fonts/roboto_700/Roboto-Bold.woff2) format("woff2"),
+    url(../../fonts/roboto_700/Roboto-Bold.eot) format("embedded-opentype");
+  font-weight: 700;
+}
+
+//Inter
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"),
+    url(../../fonts/inter_600/Inter-SemiBold.ttf) format("truetype"),
+    url(../../fonts/inter_600/Inter-SemiBold.woff) format("woff"),
+    url(../../fonts/inter_600/Inter-SemiBold.woff2) format("woff2"),
+    url(../../fonts/inter_600/Inter-SemiBold.eot) format("embedded-opentype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"),
+    url(../../fonts/inter_700/Inter-Bold.ttf) format("truetype"),
+    url(../../fonts/inter_700/Inter-Bold.woff) format("woff"),
+    url(../../fonts/inter_700/Inter-Bold.woff2) format("woff2"),
+    url(../../fonts/inter_700/Inter-Bold.eot) format("embedded-opentype");
+  font-weight: 600;
+}

@@ -1,0 +1,38 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--body-bg-color);
+  color: var(--main-text-color);
+  font-style: normal;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 480px;
+  padding: 0 10px;
+  margin: 0 auto;
+
+  @include mq(tablet) {
+    max-width: 768px;
+    padding: 0 30px;
+  }
+
+  @include mq(desktop) {
+    max-width: 1366px;
+    padding: 0 30px;
+  }
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 308px;
+  padding: 14px 0;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background-color: var(--btns-bg-color);
+  color: var(--btns-text-color);
+}
