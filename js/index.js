@@ -1,3 +1,5 @@
+//Accordion functions for reason section
+
 document.addEventListener("DOMContentLoaded", function () {
   const accordionHeaders = document.querySelectorAll(
     ".spoilers-reason-list__header"
