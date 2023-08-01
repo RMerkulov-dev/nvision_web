@@ -1,0 +1,29 @@
+footer {
+  padding-bottom: 20px;
+  position: relative;
+}
+.footer-content {
+  padding-top: 20px;
+  border-top: 0.5px dotted var(--main-text-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-nav-list {
+  a {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+
+.footer-nav-adress-list {
+  a {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}

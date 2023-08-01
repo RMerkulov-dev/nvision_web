@@ -111,7 +111,7 @@ body {
   font-size: 20px;
   font-weight: 600;
   line-height: normal;
-  color: var(--secondary-text-color);
+  font-style: normal;
 }
 
 .section {
@@ -135,6 +135,7 @@ a:hover,
 a:visited {
   text-decoration: none;
   cursor: pointer;
+  color: inherit;
 }
 
 button {
@@ -597,6 +598,10 @@ summary {
   color: var(--secondary-text-color);
 }
 
+.usage-title {
+  color: var(--secondary-text-color);
+}
+
 .decorator {
   width: 100%;
   height: 1px;
@@ -631,9 +636,64 @@ summary {
   background-repeat: no-repeat;
 }
 
+.section-contacts {
+  padding-bottom: 40px;
+}
+
+.contacts-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contacts-wrapper__adress {
+  margin-top: 40px;
+}
+.contacts-wrapper__adress ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 9px;
+}
+.contacts-wrapper__adress ul li {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: var(--main-text-color);
+}
+
 .header-content {
   padding: 10px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+footer {
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.footer-content {
+  padding-top: 20px;
+  border-top: 0.5px dotted var(--main-text-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-nav-list a {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer-nav-adress-list a {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }/*# sourceMappingURL=main.css.map */
