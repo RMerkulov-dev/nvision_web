@@ -1,4 +1,4 @@
-@mixin mq($screen) {
+@mixin media($screen) {
   $mobile: 320px;
   $tablet: 744px;
   $desktop: 1366px;

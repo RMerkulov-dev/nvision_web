@@ -1,0 +1,32 @@
+.hero {
+  position: relative;
+  padding-top: 135px;
+  padding-bottom: 20px;
+
+  &:before {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: -70px;
+    width: 298px;
+    height: 470px;
+    background-image: url("../../images/hero/hero_mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.hero-title {
+  max-width: 262px;
+}
+
+.btn-hero {
+  margin-top: 152px;
+}
+
+.hero-decorator {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

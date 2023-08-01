@@ -11,12 +11,12 @@ body {
   padding: 0 10px;
   margin: 0 auto;
 
-  @include mq(tablet) {
+  @include media(tablet) {
     max-width: 768px;
     padding: 0 30px;
   }
 
-  @include mq(desktop) {
+  @include media(desktop) {
     max-width: 1366px;
     padding: 0 30px;
   }
@@ -33,6 +33,33 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  border-radius: 80px;
   background-color: var(--btns-bg-color);
   color: var(--btns-text-color);
+}
+
+.heading-h1 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: normal;
+  color: var(--main-text-color);
+
+  span {
+    display: none;
+  }
+}
+
+.heading-h2 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--decorator-color);
+
+  span {
+    color: var(--main-text-color);
+  }
+}
+
+.section {
+  padding: 20px 0;
 }

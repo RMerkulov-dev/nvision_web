@@ -82,8 +82,33 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  border-radius: 80px;
   background-color: var(--btns-bg-color);
   color: var(--btns-text-color);
+}
+
+.heading-h1 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: normal;
+  color: var(--main-text-color);
+}
+.heading-h1 span {
+  display: none;
+}
+
+.heading-h2 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--decorator-color);
+}
+.heading-h2 span {
+  color: var(--main-text-color);
+}
+
+.section {
+  padding: 20px 0;
 }
 
 .list {
@@ -375,4 +400,101 @@ Add the correct display in Chrome and Safari.
 */
 summary {
   display: list-item;
+}
+
+.hero {
+  position: relative;
+  padding-top: 135px;
+  padding-bottom: 20px;
+}
+.hero:before {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: -70px;
+  width: 298px;
+  height: 470px;
+  background-image: url("../../images/hero/hero_mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-title {
+  max-width: 262px;
+}
+
+.btn-hero {
+  margin-top: 152px;
+}
+
+.hero-decorator {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-about-list {
+  margin-top: 12px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+}
+.section-about-list li {
+  position: relative;
+  width: 100%;
+  padding-left: 16px;
+  padding-bottom: 3px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: normal;
+}
+.section-about-list li:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 5%;
+  width: 10px;
+  height: 10px;
+  background-image: url("../../images/icons/open.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.section-about-list li:after {
+  position: absolute;
+  content: "";
+  display: block;
+  left: 1px;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  border-bottom: 0.5px dotted var(--main-text-color);
+  font-size: 0;
+}
+.section-about-list p {
+  max-width: 245px;
+}
+
+.section-about__image {
+  position: relative;
+  height: 306px;
+  padding-bottom: 20px;
+}
+.section-about__image:before {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+  width: 215px;
+  height: 306px;
+  background-image: url("../../images/content/about.png");
+}
+
+.header-content {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }/*# sourceMappingURL=main.css.map */
