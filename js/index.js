@@ -45,3 +45,28 @@ document.addEventListener("DOMContentLoaded", function () {
     link.addEventListener("click", smoothScrollToSection);
   });
 });
+
+//Burger-menu
+
+document.addEventListener("DOMContentLoaded", function () {
+  const openMenuBtn = document.querySelector(".open-menu-btn");
+  const backdrop = document.querySelector(".backdrop");
+  const menuWrapper = document.querySelector(".menu-wrapper");
+
+  function openMenu() {
+    backdrop.classList.add("open");
+    menuWrapper.classList.add("open");
+  }
+
+  function closeMenu() {
+    backdrop.classList.remove("open");
+    menuWrapper.classList.remove("open");
+    menuWrapper.classList.add("closed");
+    setTimeout(() => {
+      menuWrapper.classList.remove("closed");
+    }, 300); // The same duration as the CSS transition
+  }
+
+  openMenuBtn.addEventListener("click", openMenu);
+  backdrop.addEventListener("click", closeMenu);
+});

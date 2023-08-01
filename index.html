@@ -15,7 +15,7 @@
               <use xlink:href="./images/icons/sprite.svg#logo"></use>
             </svg>
           </a>
-          <button>
+          <button class="open-menu-btn">
             <svg width="32" height="32">
               <use xlink:href="./images/icons/sprite.svg#burger"></use>
             </svg>
@@ -249,7 +249,7 @@
           </ul>
         </div>
       </section>
-      <section class="section section-contacts">
+      <section id="contacts" class="section section-contacts">
         <div class="container contacts-wrapper">
           <button class="button">Замовити</button>
           <address class="contacts-wrapper__adress">
@@ -282,6 +282,24 @@
         </div>
       </footer>
     </main>
+    <!-- Burger menu -->
+    <div class="backdrop">
+      <button class="btn-close">
+        <svg width="32" height="30">
+          <use xlink:href="./images/icons/sprite.svg#close"></use>
+        </svg>
+      </button>
+      <div class="menu-wrapper">
+        <nav class="menu-nav">
+          <ul class="menu-nav-list">
+            <li><a href="#reason">З NVISION</a></li>
+            <li><a href="#usage">Застосування</a></li>
+            <li><a href="#questions">Розповсюдженні питання</a></li>
+            <li><a href="#contacts">Контакти</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
     <script type="module" src="./js/index.js"></script>
   </body>
 </html>
