@@ -444,23 +444,15 @@ summary {
 }
 .section-about-list li {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;
   width: 100%;
-  padding-left: 16px;
   padding-bottom: 3px;
   font-size: 13px;
   font-weight: 600;
   line-height: normal;
-}
-.section-about-list li:before {
-  position: absolute;
-  content: "";
-  left: 0;
-  top: 5%;
-  width: 10px;
-  height: 10px;
-  background-image: url("../../images/icons/open.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 .section-about-list li:after {
   position: absolute;
