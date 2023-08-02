@@ -688,6 +688,7 @@ summary {
 
 .section-usage {
   background-color: var(--decorator-color);
+  padding-bottom: 360px;
 }
 
 .section-usage-list li {
@@ -727,9 +728,24 @@ summary {
   border-bottom: 0.5px dotted var(--main-text-color);
 }
 
+.section-container {
+  position: relative;
+}
+
+.usage-image {
+  position: absolute;
+  bottom: -320px;
+}
+@media screen and (min-width: 744px) {
+  .usage-image {
+    right: 0;
+  }
+}
+
 .usage-image-wrapper {
   height: 302px;
   position: relative;
+  width: 300px;
 }
 .usage-image-wrapper:before {
   position: absolute;
@@ -753,6 +769,12 @@ summary {
   background-image: url("../images/content/usage_2.png");
   background-size: cover;
   background-repeat: no-repeat;
+}
+@media screen and (min-width: 744px) {
+  .usage-image-wrapper:after {
+    right: 0;
+    bottom: 0;
+  }
 }
 
 .section-contacts {

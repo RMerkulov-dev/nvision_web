@@ -1,5 +1,6 @@
 .section-usage {
   background-color: var(--decorator-color);
+  padding-bottom: 360px;
 }
 .section-usage-list {
   li {
@@ -40,9 +41,23 @@
   height: 1px;
   border-bottom: 0.5px dotted var(--main-text-color);
 }
+
+.section-container {
+  position: relative;
+}
+
+.usage-image {
+  position: absolute;
+  bottom: -320px;
+
+  @include media(tablet) {
+    right: 0;
+  }
+}
 .usage-image-wrapper {
   height: 302px;
   position: relative;
+  width: 300px;
 
   &:before {
     position: absolute;
@@ -67,5 +82,10 @@
     background-image: url("../images/content/usage_2.png");
     background-size: cover;
     background-repeat: no-repeat;
+
+    @include media(tablet) {
+      right: 0;
+      bottom: 0;
+    }
   }
 }
