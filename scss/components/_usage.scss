@@ -1,17 +1,17 @@
 .section-usage {
   background-color: var(--decorator-color);
-  padding-bottom: 30px;
+  padding-bottom: 340px;
   @include media(tablet) {
-    padding-bottom: 20px;
+    padding-bottom: 330px;
   }
 
-  &__image {
+  &__image-wrapper {
     position: absolute;
     bottom: -320px;
 
     @include media(tablet) {
       right: 0;
-      bottom: 0;
+      bottom: -300px;
     }
   }
 }

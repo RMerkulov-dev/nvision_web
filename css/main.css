@@ -699,21 +699,21 @@ summary {
 
 .section-usage {
   background-color: var(--decorator-color);
-  padding-bottom: 30px;
+  padding-bottom: 340px;
 }
 @media screen and (min-width: 744px) {
   .section-usage {
-    padding-bottom: 20px;
+    padding-bottom: 330px;
   }
 }
-.section-usage__image {
+.section-usage__image-wrapper {
   position: absolute;
   bottom: -320px;
 }
 @media screen and (min-width: 744px) {
-  .section-usage__image {
+  .section-usage__image-wrapper {
     right: 0;
-    bottom: 0;
+    bottom: -300px;
   }
 }
 
