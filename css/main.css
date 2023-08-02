@@ -507,7 +507,7 @@ summary {
 }
 .spoilers-reason-list li {
   position: relative;
-  padding-bottom: 2px;
+  padding-bottom: 4px;
   width: 100%;
 }
 .spoilers-reason-list li:after {
@@ -526,6 +526,10 @@ summary {
   font-size: 16px;
   font-weight: 600;
   line-height: normal;
+}
+.spoilers-reason-list__header p {
+  max-width: 300px;
+  display: block;
 }
 .spoilers-reason-list__header.active:before {
   display: none;
