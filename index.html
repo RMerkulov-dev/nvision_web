@@ -8,10 +8,11 @@
   </head>
   <body>
     <header class="header">
-      <div class="mob-wrapper container">
-        <div class="header-content">
+      <!-- Mobile version -->
+      <div class="mobile-header-wrapper container">
+        <div class="mobile-header-wrapper__content">
           <a href="#">
-            <svg width="41" height="47">
+            <svg class="mobile-header-wrapper__content-logo">
               <use xlink:href="./images/icons/sprite.svg#logo"></use>
             </svg>
           </a>
@@ -20,6 +21,32 @@
               <use xlink:href="./images/icons/sprite.svg#burger"></use>
             </svg>
           </button>
+        </div>
+      </div>
+      <!-- Desktop version -->
+      <div class="desktop-header-wrapper container">
+        <div class="desktop-header-wrapper__content">
+          <a href="#">
+            <svg class="desktop-header-wrapper__content-logo">
+              <use xlink:href="./images/icons/sprite.svg#logo"></use>
+            </svg>
+          </a>
+          <nav class="desktop-header-wrapper__nav">
+            <ul class="desktop-header-wrapper__nav-list">
+              <li class="desktop-header-wrapper__nav-list__item">
+                <a href="#reason">З NVISION</a>
+              </li>
+              <li class="desktop-header-wrapper__nav-list__item">
+                <a href="#usage">Застосування</a>
+              </li>
+              <li class="desktop-header-wrapper__nav-list__item">
+                <a href="#questions">Розповсюдженні питання</a>
+              </li>
+              <li class="desktop-header-wrapper__nav-list__item">
+                <a href="#contacts">Контакти</a>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
     </header>
