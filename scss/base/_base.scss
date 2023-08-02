@@ -44,8 +44,16 @@ body {
   line-height: normal;
   color: var(--main-text-color);
 
+  @include media(tablet) {
+    font-size: 40px;
+  }
+
   span {
     display: none;
+
+    @include media(tablet) {
+      display: block;
+    }
   }
 }
 
@@ -54,6 +62,10 @@ body {
   font-weight: 700;
   line-height: normal;
   color: var(--decorator-color);
+
+  @include media(tablet) {
+    font-size: 32px;
+  }
 
   span {
     color: var(--main-text-color);
@@ -69,4 +81,8 @@ body {
 
 .section {
   padding: 20px 0;
+
+  @include media(tablet) {
+    padding: 40px 0;
+  }
 }

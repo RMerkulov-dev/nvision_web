@@ -94,8 +94,18 @@ body {
   line-height: normal;
   color: var(--main-text-color);
 }
+@media screen and (min-width: 744px) {
+  .heading-h1 {
+    font-size: 40px;
+  }
+}
 .heading-h1 span {
   display: none;
+}
+@media screen and (min-width: 744px) {
+  .heading-h1 span {
+    display: block;
+  }
 }
 
 .heading-h2 {
@@ -103,6 +113,11 @@ body {
   font-weight: 700;
   line-height: normal;
   color: var(--decorator-color);
+}
+@media screen and (min-width: 744px) {
+  .heading-h2 {
+    font-size: 32px;
+  }
 }
 .heading-h2 span {
   color: var(--main-text-color);
@@ -117,6 +132,11 @@ body {
 
 .section {
   padding: 20px 0;
+}
+@media screen and (min-width: 744px) {
+  .section {
+    padding: 40px 0;
+  }
 }
 
 .list {
@@ -417,10 +437,16 @@ summary {
   padding-bottom: 20px;
   overflow: hidden;
 }
+@media screen and (min-width: 744px) {
+  .hero {
+    padding-top: 95px;
+    padding-bottom: 160px;
+  }
+}
 .hero:before {
   position: absolute;
   content: "";
-  right: -300;
+  right: -293;
   top: -195px;
   width: 600px;
   height: 600px;
@@ -428,13 +454,40 @@ summary {
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media screen and (min-width: 744px) {
+  .hero:before {
+    width: 670px;
+    height: 670px;
+    right: -160px;
+    top: -160px;
+  }
+}
 
 .hero-title {
   max-width: 262px;
 }
+@media screen and (min-width: 744px) {
+  .hero-title {
+    max-width: 360px;
+  }
+  .hero-title span {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1;
+    color: var(--decorator-color);
+    margin-bottom: 16px;
+  }
+}
 
 .btn-hero {
   margin-top: 152px;
+}
+@media screen and (min-width: 744px) {
+  .btn-hero {
+    margin-top: 50px;
+  }
 }
 
 .hero-decorator {
@@ -442,6 +495,11 @@ summary {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media screen and (min-width: 744px) {
+  .hero-decorator {
+    display: none;
+  }
 }
 
 .section-about-list {
@@ -452,6 +510,11 @@ summary {
   flex-direction: column;
   gap: 12px;
 }
+@media screen and (min-width: 744px) {
+  .section-about-list {
+    margin-top: 16px;
+  }
+}
 .section-about-list li {
   position: relative;
   display: flex;
@@ -459,10 +522,6 @@ summary {
   justify-content: flex-start;
   gap: 6px;
   width: 100%;
-  padding-bottom: 3px;
-  font-size: 13px;
-  font-weight: 600;
-  line-height: normal;
 }
 .section-about-list li:after {
   position: absolute;
@@ -477,6 +536,16 @@ summary {
 }
 .section-about-list p {
   max-width: 245px;
+  padding-bottom: 3px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: normal;
+}
+@media screen and (min-width: 744px) {
+  .section-about-list p {
+    max-width: 530px;
+    font-size: 16px;
+  }
 }
 
 .section-about__image {
@@ -498,14 +567,32 @@ summary {
   margin-top: 6px;
   display: flex;
   align-items: flex-start;
+  flex-direction: column;
+  gap: 7px;
+  height: 100%;
+}
+@media screen and (min-width: 744px) {
+  .about-icons-wrapper {
+    gap: 40px;
+    margin-top: 75px;
+  }
+  .about-icons-wrapper svg {
+    width: 127px;
+    height: 127px;
+  }
+}
+.about-icons-wrapper__block {
+  display: flex;
+  align-items: center;
   justify-content: space-between;
   flex-direction: column;
   height: 100%;
 }
-.about-icons-wrapper_mid {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
+@media screen and (min-width: 744px) {
+  .about-icons-wrapper__block {
+    flex-direction: row;
+    gap: 70px;
+  }
 }
 
 .spoilers-wrapper {
@@ -538,6 +625,8 @@ summary {
 }
 .spoilers-reason-list__header {
   position: relative;
+}
+.spoilers-reason-list__header > p {
   font-size: 16px;
   font-weight: 600;
   line-height: normal;
@@ -583,8 +672,18 @@ summary {
   line-height: normal;
   max-width: 306px;
 }
+@media screen and (min-width: 744px) {
+  .spoilers-reason-list__content p {
+    max-width: 620px;
+    font-size: 15px;
+  }
+}
 .spoilers-reason-list__content.active {
   max-height: 320px;
+}
+
+.reason-heading {
+  color: var(--main-text-color);
 }
 
 .section-usage {
@@ -723,6 +822,12 @@ summary {
   display: flex;
   align-items: flex-end;
   gap: 32px;
+}
+.desktop-header-wrapper__nav-list a {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .open-menu-btn {

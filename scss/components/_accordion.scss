@@ -30,9 +30,14 @@
 
   &__header {
     position: relative;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: normal;
+    & > p {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: normal;
+
+      @include media(tablet) {
+      }
+    }
     p {
       max-width: 240px;
       display: block;
@@ -76,10 +81,18 @@
       font-weight: 400;
       line-height: normal;
       max-width: 306px;
+      @include media(tablet) {
+        max-width: 620px;
+        font-size: 15px;
+      }
     }
 
     &.active {
       max-height: 320px;
     }
   }
+}
+
+.reason-heading {
+  color: var(--main-text-color);
 }
