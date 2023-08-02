@@ -438,42 +438,43 @@ summary {
 
 .hero {
   position: relative;
-  padding-top: 135px;
   padding-bottom: 20px;
   overflow: hidden;
 }
 @media screen and (min-width: 744px) {
   .hero {
-    padding-top: 95px;
-    padding-bottom: 160px;
+    padding-bottom: 110px;
   }
 }
 .hero:before {
   position: absolute;
   content: "";
-  right: -293;
-  top: -195px;
+  right: -300px;
+  top: -80px;
   width: 600px;
   height: 600px;
   background-image: url("../images/hero/hero-image.png");
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: -1;
 }
 @media screen and (min-width: 744px) {
   .hero:before {
     width: 670px;
     height: 670px;
-    right: -160px;
-    top: -160px;
+    right: -335px;
+    top: -90px;
   }
 }
 
 .hero-title {
   max-width: 262px;
+  margin-top: 232px;
 }
 @media screen and (min-width: 744px) {
   .hero-title {
     max-width: 360px;
+    margin-top: 94px;
   }
   .hero-title span {
     text-transform: uppercase;
@@ -698,7 +699,12 @@ summary {
 
 .section-usage {
   background-color: var(--decorator-color);
-  padding-bottom: 360px;
+  padding-bottom: 30px;
+}
+@media screen and (min-width: 744px) {
+  .section-usage {
+    padding-bottom: 20px;
+  }
 }
 .section-usage__image {
   position: absolute;
@@ -707,6 +713,7 @@ summary {
 @media screen and (min-width: 744px) {
   .section-usage__image {
     right: 0;
+    bottom: 0;
   }
 }
 
@@ -877,6 +884,7 @@ summary {
 .desktop-header-wrapper__content-logo {
   width: 72px;
   height: 72px;
+  padding-bottom: 2px;
 }
 .desktop-header-wrapper__nav-list {
   display: flex;

@@ -1,38 +1,41 @@
 .hero {
   position: relative;
-  padding-top: 135px;
+  // padding-top: 135px;
   padding-bottom: 20px;
   overflow: hidden;
 
   @include media(tablet) {
-    padding-top: 95px;
-    padding-bottom: 160px;
+    // padding-top: 95px;
+    padding-bottom: 110px;
   }
 
   &:before {
     position: absolute;
     content: "";
-    right: -293;
-    top: -195px;
+    right: -300px;
+    top: -80px;
     width: 600px;
     height: 600px;
     background-image: url("../images/hero/hero-image.png");
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: -1;
 
     @include media(tablet) {
       width: 670px;
       height: 670px;
-      right: -160px;
-      top: -160px;
+      right: -335px;
+      top: -90px;
     }
   }
 }
 
 .hero-title {
   max-width: 262px;
+  margin-top: 232px;
   @include media(tablet) {
     max-width: 360px;
+    margin-top: 94px;
 
     span {
       text-transform: uppercase;
