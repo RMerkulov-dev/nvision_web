@@ -24,7 +24,7 @@
   font-weight: 600;
 }
 :root {
-  --body-bg-color: #f1f1f1;
+  --body-bg-color: #fff;
   --main-text-color: #102134;
   --secondary-text-color: #1d1d1d;
   --btns-bg-color: #ff5625;
@@ -423,7 +423,7 @@ summary {
   top: -70px;
   width: 298px;
   height: 470px;
-  background-image: url("../images/hero/hero_mobile.png");
+  background-image: url("../images/hero/hero-image.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -491,6 +491,20 @@ summary {
   width: 215px;
   height: 306px;
   background-image: url("../images/content/about.png");
+}
+
+.about-icons-wrapper {
+  margin-top: 6px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+}
+.about-icons-wrapper_mid {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
 .spoilers-wrapper {

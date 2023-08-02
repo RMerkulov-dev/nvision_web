@@ -52,3 +52,18 @@
     background-image: url("../images/content/about.png");
   }
 }
+
+.about-icons-wrapper {
+  margin-top: 6px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+
+  &_mid {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+}
