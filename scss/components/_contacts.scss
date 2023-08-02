@@ -1,5 +1,9 @@
 .section-contacts {
   padding-bottom: 40px;
+
+  @include media(tablet) {
+    padding-top: 0;
+  }
 }
 
 .contacts-wrapper {
@@ -8,8 +12,16 @@
   justify-content: center;
   flex-direction: column;
 
+  @include media(tablet) {
+    align-items: flex-start;
+  }
+
   &__adress {
     margin-top: 40px;
+
+    @include media(tablet) {
+      margin-top: 80px;
+    }
 
     ul {
       display: flex;

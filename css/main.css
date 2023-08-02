@@ -129,6 +129,11 @@ body {
   line-height: normal;
   font-style: normal;
 }
+@media screen and (min-width: 744px) {
+  .heading-h3 {
+    font-size: 32px;
+  }
+}
 
 .section {
   padding: 20px 0;
@@ -635,6 +640,11 @@ summary {
   max-width: 240px;
   display: block;
 }
+@media screen and (min-width: 744px) {
+  .spoilers-reason-list__header p {
+    min-width: 550px;
+  }
+}
 .spoilers-reason-list__header.active:before {
   display: none;
   transition: 0.3s ease-out;
@@ -690,6 +700,15 @@ summary {
   background-color: var(--decorator-color);
   padding-bottom: 360px;
 }
+.section-usage__image {
+  position: absolute;
+  bottom: -320px;
+}
+@media screen and (min-width: 744px) {
+  .section-usage__image {
+    right: 0;
+  }
+}
 
 .section-usage-list li {
   position: relative;
@@ -706,6 +725,15 @@ summary {
   align-items: center;
   justify-content: flex-start;
   padding-left: 22px;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+@media screen and (min-width: 744px) {
+  .section-usage-sublist li {
+    font-size: 15px;
+  }
 }
 .section-usage-sublist li:first-child {
   padding-left: 0;
@@ -716,6 +744,11 @@ summary {
   font-weight: 500;
   line-height: normal;
   color: var(--secondary-text-color);
+}
+@media screen and (min-width: 744px) {
+  .section-usage-sublist__about {
+    font-size: 18px;
+  }
 }
 
 .usage-title {
@@ -730,16 +763,6 @@ summary {
 
 .section-container {
   position: relative;
-}
-
-.usage-image {
-  position: absolute;
-  bottom: -320px;
-}
-@media screen and (min-width: 744px) {
-  .usage-image {
-    right: 0;
-  }
 }
 
 .usage-image-wrapper {
@@ -780,6 +803,11 @@ summary {
 .section-contacts {
   padding-bottom: 40px;
 }
+@media screen and (min-width: 744px) {
+  .section-contacts {
+    padding-top: 0;
+  }
+}
 
 .contacts-wrapper {
   display: flex;
@@ -787,8 +815,18 @@ summary {
   justify-content: center;
   flex-direction: column;
 }
+@media screen and (min-width: 744px) {
+  .contacts-wrapper {
+    align-items: flex-start;
+  }
+}
 .contacts-wrapper__adress {
   margin-top: 40px;
+}
+@media screen and (min-width: 744px) {
+  .contacts-wrapper__adress {
+    margin-top: 80px;
+  }
 }
 .contacts-wrapper__adress ul {
   display: flex;
@@ -875,12 +913,22 @@ footer {
   font-weight: 500;
   line-height: normal;
 }
+@media screen and (min-width: 744px) {
+  .footer-nav-list a {
+    font-size: 15px;
+  }
+}
 
 .footer-nav-adress-list a {
   font-size: 13px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+@media screen and (min-width: 744px) {
+  .footer-nav-adress-list a {
+    font-size: 15px;
+  }
 }
 
 .backdrop {

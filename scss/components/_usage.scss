@@ -1,6 +1,15 @@
 .section-usage {
   background-color: var(--decorator-color);
   padding-bottom: 360px;
+
+  &__image {
+    position: absolute;
+    bottom: -320px;
+
+    @include media(tablet) {
+      right: 0;
+    }
+  }
 }
 .section-usage-list {
   li {
@@ -11,14 +20,23 @@
 
 .section-usage-sublist {
   display: flex;
-
   flex-direction: column;
+
   li {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     padding-left: 22px;
+
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    @include media(tablet) {
+      font-size: 15px;
+    }
 
     &:first-child {
       padding-left: 0;
@@ -31,8 +49,13 @@
     font-weight: 500;
     line-height: normal;
     color: var(--secondary-text-color);
+
+    @include media(tablet) {
+      font-size: 18px;
+    }
   }
 }
+
 .usage-title {
   color: var(--secondary-text-color);
 }
@@ -46,14 +69,6 @@
   position: relative;
 }
 
-.usage-image {
-  position: absolute;
-  bottom: -320px;
-
-  @include media(tablet) {
-    right: 0;
-  }
-}
 .usage-image-wrapper {
   height: 302px;
   position: relative;

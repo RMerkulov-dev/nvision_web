@@ -77,6 +77,10 @@ body {
   font-weight: 600;
   line-height: normal;
   font-style: normal;
+
+  @include media(tablet) {
+    font-size: 32px;
+  }
 }
 
 .section {

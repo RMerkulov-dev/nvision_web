@@ -16,6 +16,10 @@ footer {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+
+    @include media(tablet) {
+      font-size: 15px;
+    }
   }
 }
 
@@ -25,5 +29,9 @@ footer {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+
+    @include media(tablet) {
+      font-size: 15px;
+    }
   }
 }
