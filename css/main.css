@@ -900,6 +900,7 @@ summary {
 
 .open-menu-btn {
   z-index: 100;
+  background: transparent;
 }
 
 footer {
@@ -985,4 +986,5 @@ footer {
   position: absolute;
   right: 20px;
   top: 12px;
+  background-color: transparent;
 }/*# sourceMappingURL=main.css.map */
