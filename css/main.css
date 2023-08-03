@@ -21,7 +21,7 @@
 @font-face {
   font-family: "Inter";
   src: local("Inter"), url(../../fonts/inter_700/Inter-Bold.ttf) format("truetype"), url(../../fonts/inter_700/Inter-Bold.woff) format("woff"), url(../../fonts/inter_700/Inter-Bold.woff2) format("woff2"), url(../../fonts/inter_700/Inter-Bold.eot) format("embedded-opentype");
-  font-weight: 600;
+  font-weight: 700;
 }
 :root {
   --body-bg-color: #fff;
