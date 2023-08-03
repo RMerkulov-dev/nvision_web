@@ -717,6 +717,7 @@ summary {
 @media screen and (min-width: 1024px) {
   .spoilers-reason-list {
     gap: 22px;
+    max-width: 650px;
   }
 }
 .spoilers-reason-list li {
@@ -742,6 +743,11 @@ summary {
   font-size: 16px;
   font-weight: 600;
   line-height: normal;
+}
+@media screen and (min-width: 1024px) {
+  .spoilers-reason-list__header > p {
+    font-size: 18px;
+  }
 }
 .spoilers-reason-list__header p {
   max-width: 240px;
@@ -797,7 +803,7 @@ summary {
 }
 @media screen and (min-width: 1024px) {
   .spoilers-reason-list__content p {
-    max-width: 750px;
+    max-width: 630px;
     font-size: 16px;
   }
 }
@@ -821,6 +827,7 @@ summary {
 @media screen and (min-width: 1024px) {
   .section-usage {
     padding-top: 20px;
+    padding-bottom: 390px;
   }
 }
 .section-usage__image-wrapper {
@@ -857,6 +864,11 @@ summary {
 @media screen and (min-width: 744px) {
   .section-usage-sublist li {
     font-size: 15px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .section-usage-sublist li {
+    font-size: 16px;
   }
 }
 .section-usage-sublist li:first-child {
@@ -916,6 +928,14 @@ summary {
   background-repeat: no-repeat;
   z-index: 20;
 }
+@media screen and (min-width: 1024px) {
+  .usage-image-wrapper:before {
+    width: 251px;
+    height: 466px;
+    left: -220px;
+    top: -95px;
+  }
+}
 .usage-image-wrapper:after {
   position: absolute;
   content: "";
@@ -931,6 +951,14 @@ summary {
   .usage-image-wrapper:after {
     right: 0;
     bottom: 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .usage-image-wrapper:after {
+    width: 215px;
+    height: 455px;
+    left: -25px;
+    top: -120px;
   }
 }
 
@@ -969,12 +997,23 @@ summary {
   flex-direction: column;
   gap: 9px;
 }
+@media screen and (min-width: 1024px) {
+  .contacts-wrapper__adress ul {
+    gap: 12px;
+  }
+}
 .contacts-wrapper__adress ul li {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   color: var(--main-text-color);
+}
+
+@media screen and (min-width: 1024px) {
+  .contact-heading {
+    font-size: 32px;
+  }
 }
 
 .desktop-header-wrapper {
@@ -1044,6 +1083,11 @@ summary {
 footer {
   padding-bottom: 20px;
   position: relative;
+}
+@media screen and (min-width: 744px) {
+  footer {
+    padding-bottom: 70px;
+  }
 }
 
 .footer-content {

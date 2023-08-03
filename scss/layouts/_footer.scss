@@ -1,6 +1,10 @@
 footer {
   padding-bottom: 20px;
   position: relative;
+
+  @include media(tablet) {
+    padding-bottom: 70px;
+  }
 }
 .footer-content {
   padding-top: 20px;

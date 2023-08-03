@@ -12,6 +12,7 @@
 
   @include media(desktop) {
     gap: 22px;
+    max-width: 650px;
   }
 
   li {
@@ -38,6 +39,10 @@
       font-size: 16px;
       font-weight: 600;
       line-height: normal;
+
+      @include media(desktop) {
+        font-size: 18px;
+      }
     }
     p {
       max-width: 240px;
@@ -92,7 +97,7 @@
       }
 
       @include media(desktop) {
-        max-width: 750px;
+        max-width: 630px;
         font-size: 16px;
       }
     }

@@ -8,6 +8,7 @@
 
   @include media(desktop) {
     padding-top: 20px;
+    padding-bottom: 390px;
   }
 
   &__image-wrapper {
@@ -45,6 +46,10 @@
 
     @include media(tablet) {
       font-size: 15px;
+    }
+
+    @include media(desktop) {
+      font-size: 16px;
     }
 
     &:first-child {
@@ -104,6 +109,13 @@
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 20;
+
+    @include media(desktop) {
+      width: 251px;
+      height: 466px;
+      left: -220px;
+      top: -95px;
+    }
   }
 
   &:after {
@@ -120,6 +132,13 @@
     @include media(tablet) {
       right: 0;
       bottom: 0;
+    }
+
+    @include media(desktop) {
+      width: 215px;
+      height: 455px;
+      left: -25px;
+      top: -120px;
     }
   }
 }

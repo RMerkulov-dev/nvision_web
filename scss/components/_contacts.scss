@@ -28,8 +28,11 @@
       align-items: center;
       justify-content: center;
       flex-direction: column;
-
       gap: 9px;
+
+      @include media(desktop) {
+        gap: 12px;
+      }
 
       li {
         font-size: 16px;
@@ -39,5 +42,11 @@
         color: var(--main-text-color);
       }
     }
+  }
+}
+
+.contact-heading {
+  @include media(desktop) {
+    font-size: 32px;
   }
 }
