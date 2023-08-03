@@ -28,22 +28,8 @@
   --main-text-color: #102134;
   --secondary-text-color: #1d1d1d;
   --btns-bg-color: #ff5625;
-  --btns-hover-color: #a04026;
   --btns-text-color: #ffffff;
   --decorator-color: #5076ff;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 
 body {
@@ -78,7 +64,7 @@ body {
   justify-content: center;
   width: 308px;
   padding: 14px 0;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -86,11 +72,19 @@ body {
   border-radius: 80px;
   background-color: var(--btns-bg-color);
   color: var(--btns-text-color);
+  transition: 0.3s;
 }
 @media screen and (min-width: 1024px) {
   .button {
     font-size: 24px;
     width: 420px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .button:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   }
 }
 
@@ -724,6 +718,7 @@ summary {
   position: relative;
   padding-bottom: 4px;
   width: 100%;
+  cursor: pointer;
 }
 .spoilers-reason-list li:after {
   position: absolute;
