@@ -715,7 +715,6 @@ summary {
 @media screen and (min-width: 1024px) {
   .spoilers-reason-list {
     gap: 22px;
-    max-width: 650px;
   }
 }
 .spoilers-reason-list li {
