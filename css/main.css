@@ -696,6 +696,10 @@ summary {
   }
 }
 
+.heading-about {
+  text-align: center;
+}
+
 .spoilers-wrapper {
   margin-top: 13px;
 }
