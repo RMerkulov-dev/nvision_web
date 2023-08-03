@@ -1,12 +1,14 @@
 .hero {
   position: relative;
-  // padding-top: 135px;
   padding-bottom: 20px;
   overflow: hidden;
 
   @include media(tablet) {
-    // padding-top: 95px;
     padding-bottom: 110px;
+  }
+
+  @include media(desktop) {
+    padding-bottom: 240px;
   }
 
   &:before {
@@ -27,6 +29,13 @@
       right: -335px;
       top: -90px;
     }
+
+    @include media(desktop) {
+      width: 738px;
+      height: 738px;
+      right: -100px;
+      top: 0;
+    }
   }
 }
 
@@ -45,7 +54,16 @@
       line-height: 1;
       color: var(--decorator-color);
       margin-bottom: 16px;
+
+      @include media(desktop) {
+        font-size: 72px;
+      }
     }
+  }
+
+  @include media(desktop) {
+    margin-top: 80px;
+    max-width: 370px;
   }
 }
 
@@ -54,6 +72,10 @@
 
   @include media(tablet) {
     margin-top: 50px;
+  }
+
+  @include media(desktop) {
+    margin-top: 40px;
   }
 }
 

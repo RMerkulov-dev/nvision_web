@@ -10,6 +10,10 @@
   flex-direction: column;
   gap: 12px;
 
+  @include media(desktop) {
+    gap: 22px;
+  }
+
   li {
     position: relative;
     padding-bottom: 4px;
@@ -34,9 +38,6 @@
       font-size: 16px;
       font-weight: 600;
       line-height: normal;
-
-      @include media(tablet) {
-      }
     }
     p {
       max-width: 240px;
@@ -84,9 +85,15 @@
       font-weight: 400;
       line-height: normal;
       max-width: 306px;
+
       @include media(tablet) {
         max-width: 620px;
         font-size: 15px;
+      }
+
+      @include media(desktop) {
+        max-width: 750px;
+        font-size: 16px;
       }
     }
 

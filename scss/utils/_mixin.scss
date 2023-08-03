@@ -1,7 +1,7 @@
 @mixin media($screen) {
   $mobile: 320px;
   $tablet: 744px;
-  $desktop: 1366px;
+  $desktop: 1024px;
 
   @if $screen == mobile-only {
     @media screen and (max-width: #{$tablet - 0.02}) {

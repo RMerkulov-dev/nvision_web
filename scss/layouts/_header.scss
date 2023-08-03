@@ -35,6 +35,11 @@
     width: 72px;
     height: 72px;
     padding-bottom: 2px;
+
+    @include media(desktop) {
+      width: 100px;
+      height: 114px;
+    }
   }
 
   &__nav-list {
@@ -47,6 +52,10 @@
       font-style: normal;
       font-weight: 600;
       line-height: normal;
+
+      @include media(desktop) {
+        font-size: 18px;
+      }
     }
   }
 }

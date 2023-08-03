@@ -7,18 +7,18 @@ body {
 }
 
 .container {
-  max-width: 480px;
+  max-width: 320px;
   padding: 0 10px;
   margin: 0 auto;
 
   @include media(tablet) {
-    max-width: 768px;
+    max-width: 744px;
     padding: 0 30px;
   }
 
   @include media(desktop) {
-    max-width: 1366px;
-    padding: 0 30px;
+    max-width: 1024px;
+    padding: 0 90px;
   }
 }
 
@@ -36,6 +36,11 @@ body {
   border-radius: 80px;
   background-color: var(--btns-bg-color);
   color: var(--btns-text-color);
+
+  @include media(desktop) {
+    font-size: 24px;
+    width: 420px;
+  }
 }
 
 .heading-h1 {
@@ -46,6 +51,9 @@ body {
 
   @include media(tablet) {
     font-size: 40px;
+  }
+  @include media(desktop) {
+    font-size: 44px;
   }
 
   span {
@@ -67,6 +75,10 @@ body {
     font-size: 32px;
   }
 
+  @include media(desktop) {
+    font-size: 36px;
+  }
+
   span {
     color: var(--main-text-color);
   }
@@ -80,6 +92,10 @@ body {
 
   @include media(tablet) {
     font-size: 32px;
+  }
+
+  @include media(desktop) {
+    font-size: 36px;
   }
 }
 

@@ -33,12 +33,12 @@
 <path d="M54.0751 60.5875C53.554 58.7516 51.8839 57.4961 49.977 57.4961C47.62 57.4961 45.7012 59.403 45.7012 61.7719C45.7012 63.6789 46.9567 65.3489 48.7925 65.8701V69.1865C48.7925 69.8379 49.3255 70.3709 49.977 70.3709C50.6284 70.3709 51.1614 69.8379 51.1614 69.1865V65.8701C53.4237 65.2186 54.7384 62.8497 54.0751 60.5875ZM49.977 63.667C48.9228 63.667 48.07 62.8142 48.07 61.7601C48.07 60.7059 48.9228 59.8531 49.977 59.8531C51.0311 59.8531 51.8839 60.7059 51.8839 61.7601C51.8839 62.8142 51.0311 63.667 49.977 63.667Z" fill="#5076FF"/>
 </symbol>
 
-<symbol id="marker-white" width="14" height="14" viewBox="0 0 14 14" fill="none">
+<symbol id="marker-white"  viewBox="0 0 14 14" fill="none">
 <path d="M2.00011 12L7.55566 7L2.00011 2" stroke="white" stroke-width="1.5" stroke-linecap="square"/>
 <path d="M6.44444 12L12 7L6.44444 2" stroke="white" stroke-width="1.5" stroke-linecap="square"/>
 </symbol>
 
-<symbol id="marker-blue" width="14" height="14" viewBox="0 0 14 14" fill="none">
+<symbol id="marker-blue"  viewBox="0 0 14 14" fill="none">
 <path d="M2.00011 2L7.55566 7L2.00011 12" stroke="#5076FF" stroke-width="1.5" stroke-linecap="square"/>
 <path d="M6.4442 2L11.9998 7L6.4442 12" stroke="#5076FF" stroke-width="1.5" stroke-linecap="square"/>
 </symbol>
