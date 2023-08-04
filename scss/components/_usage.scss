@@ -1,9 +1,9 @@
 .section-usage {
   background-color: var(--decorator-color);
-  padding-bottom: 340px;
+  padding-bottom: 320px;
 
   @include media(tablet) {
-    padding-bottom: 330px;
+    padding-bottom: 385px;
   }
 
   @include media(desktop) {
@@ -40,7 +40,7 @@
     padding-left: 22px;
     font-size: 13px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     line-height: normal;
 
     @include media(tablet) {
@@ -49,6 +49,7 @@
 
     @include media(desktop) {
       font-size: 16px;
+      padding-left: 26px;
     }
 
     &:first-child {
@@ -59,7 +60,7 @@
 
   &__about {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: normal;
     color: var(--secondary-text-color);
 
@@ -100,44 +101,27 @@
   &:before {
     position: absolute;
     content: "";
-    width: 145px;
+    width: 240px;
     height: 290px;
     left: 20px;
-    top: 26px;
-    background-image: url("../images/content/usage_1.png");
+    top: 0;
+    background-image: url("../images/content/phones.png");
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 20;
 
-    @include media(desktop) {
-      width: 251px;
-      height: 466px;
-      left: -220px;
-      top: -95px;
-    }
-  }
-
-  &:after {
-    position: absolute;
-    content: "";
-    width: 133px;
-    height: 281px;
-    left: 145px;
-    top: 10px;
-    background-image: url("../images/content/usage_2.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-
     @include media(tablet) {
-      right: 0;
-      bottom: 0;
+      width: 320px;
+      height: 368px;
+      left: -80px;
+      top: -0;
     }
 
     @include media(desktop) {
-      width: 215px;
-      height: 455px;
-      left: -25px;
-      top: -120px;
+      width: 410px;
+      height: 471px;
+      left: -215px;
+      top: -115px;
     }
   }
 }

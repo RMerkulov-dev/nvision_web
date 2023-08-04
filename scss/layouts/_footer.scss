@@ -15,6 +15,14 @@ footer {
 }
 
 .footer-nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  @include media(tablet) {
+    gap: 12px;
+  }
+
   a {
     font-size: 13px;
     font-style: normal;
@@ -28,6 +36,14 @@ footer {
 }
 
 .footer-nav-adress-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  @include media(tablet) {
+    gap: 12px;
+  }
+
   a {
     font-size: 13px;
     font-style: normal;
