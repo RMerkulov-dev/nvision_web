@@ -71,13 +71,14 @@ body {
   background-color: var(--btns-bg-color);
   color: var(--btns-text-color);
   transition: 0.3s;
+  width: 100%;
 }
 .button a {
   padding: 14px 0;
-  width: 290px;
+  width: 100%;
 }
-@media screen and (min-width: 1024px) {
-  .button a {
+@media screen and (min-width: 744px) {
+  .button {
     width: 380px;
   }
 }

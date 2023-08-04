@@ -36,14 +36,15 @@ body {
   background-color: var(--btns-bg-color);
   color: var(--btns-text-color);
   transition: 0.3s;
+  width: 100%;
 
   a {
     padding: 14px 0;
-    width: 290px;
+    width: 100%;
+  }
 
-    @include media(desktop) {
-      width: 380px;
-    }
+  @include media(tablet) {
+    width: 380px;
   }
 
   @include media(desktop) {
