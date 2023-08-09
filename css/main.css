@@ -95,6 +95,49 @@ body {
   }
 }
 
+.btn-application {
+  margin-top: 20px;
+  background-color: transparent;
+  font-size: 19px;
+  border-radius: 80px;
+  border: 1px solid var(--decorator-color);
+  color: #151c2f;
+}
+@media screen and (min-width: 744px) {
+  .btn-application {
+    margin-top: 32px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .btn-application {
+    margin-top: 40px;
+    font-size: 24px;
+  }
+}
+.btn-application a {
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+}
+@media screen and (min-width: 1024px) {
+  .btn-application a {
+    padding: 8px 0;
+    gap: 16px;
+  }
+}
+.btn-application svg {
+  width: 41px;
+  height: 41px;
+}
+@media screen and (min-width: 1024px) {
+  .btn-application svg {
+    width: 44px;
+    height: 44px;
+  }
+}
+
 .heading-h1 {
   font-size: 32px;
   font-weight: 600;
